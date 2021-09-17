@@ -12,6 +12,6 @@ pgcd(  int  a  ,  int   b ) {
 int main(){
     
     int  c = pgcd  (  12  ,  51  )  ;
-    printf(" le pgcd est %d\n",c);
+    printf(" le pgcd est %d\n",c);      
     return 0;
 }
