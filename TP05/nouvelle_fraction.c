@@ -1,12 +1,5 @@
 #include <stdlib.h>
 #include "fraction.h"
-int * numerateur(struct fraction_s *f){
-    return &(f->p);
-}
-int * denominateur( struct fraction_s * f){
-    return &(f->q);
-}
-   
     
 struct fraction_s* nouvelle_fraction(int a,int b){
     struct fraction_s*f;

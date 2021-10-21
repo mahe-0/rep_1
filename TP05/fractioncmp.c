@@ -1,15 +1,5 @@
 #include "fraction.h"
 int fractioncmp(struct fraction_s* f1,struct fraction_s* f2){
-    if (f1>f2){ 
-        return 1;
-    }else{
-        return -1;
-    }
+   return *numerateur(f1)* *denominateur(f2) - *denominateur(f1)* *numerateur(f2);
 }
-#ifdef TESTS
-int 
-main(){
-    fractioncmp(nouvelle_fraction(3,4),nouvelle_fraction(-3,4));
-    return 0;
-}
-#endif 
+
