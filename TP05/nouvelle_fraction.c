@@ -51,7 +51,7 @@ main(){
     f=nouvelle_fraction(-3,0);
     TEST_RES(f->p==1);
     TEST_RES(f->q==0);
-    f=nouvelle_fraction(0,4);
+    f=nouvelle_fraction(0,-4);
     TEST_RES(f->p==0);
     TEST_RES(f->q==1);
     return 0 ;
